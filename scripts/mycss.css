@@ -1,0 +1,209 @@
+
+
+body {
+    background: linear-gradient(to right,#e9e9e9,#a5b0f7);
+}
+
+.rcorners2 {
+    border-radius: 35px;
+    border: 5px  solid #424eaa63;
+    padding: 20px;
+    background-color: #b1baf5c4;
+}
+
+.jumbotron_cstm {
+    background: linear-gradient(to right,#f6f6f6,#8a95db);
+    border-radius: 1rem;
+}
+
+.foot_hr {
+    border: none;
+    border-bottom: 3px double #888888;
+    color: #606060;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+  
+.foot_hr::after {
+    content: "MB";
+    padding: 0 4px;
+    position: relative;
+    top: -15px;
+}
+
+.foot_list {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.foot_a {
+    color: black;
+}
+
+.nav-item {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+}
+
+.nav-item:hover {
+    background-color:#424eaa63;
+}
+
+.nav-link:hover {
+    color:#ffffff;
+}
+
+.register_icon i {
+    font-size:2rem;
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-bottom:1rem;
+    margin-right:3rem;
+    color:#007bff;
+}
+
+.register_icon i:hover {
+    color: #424eaa63;
+}
+
+.logout_icon i {
+    font-size:2rem;
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin-bottom:1rem;
+    margin-right:3rem;
+    color:#007bff;
+}
+
+.logout_icon i:hover {
+    color: #424eaa63;
+}
+
+/* Form, register hlavne */
+
+.form_con {
+    background: #fff;
+    padding: 1.5rem;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,1,0.6);
+}
+
+form {
+    margin: 0 2rem;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input.form_inp {
+    color:inherit;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #747474;
+    padding-left: 1.5rem;
+}
+
+.input-group {
+    padding: 1% 0;
+    position: relative;
+}
+
+.input-group i {
+    position: absolute;
+    /*bottom: 40px;*/
+    color: black;
+    margin-top: 0.4rem;
+}
+
+.recover {
+    text-align: right;
+    margin-top: 1rem;
+}
+
+.custom_button{
+    font-size: 1.1rem;
+    width: 100%;
+    background-color:#434fabb8;
+    color: white;
+}
+
+.custom_button:hover {
+    background-color:#6f80ffb8;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 10%;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.links button {
+    color:#434fabb8;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    height: 10px;
+
+}
+
+.links button:hover {
+    text-decoration: underline;
+    color:#6f80ffb8;
+}
+
+.modal-container {
+    background-color: rgba(0,0,0,0.6);
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+.close_button {
+    background: transparent;
+    border: none;
+    font-size: 25px;
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.back_to_top {
+    display: none;
+    background-color: rgba(85, 63, 255, 0.75); 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #back_to_top:hover {
+    background-color: #555;
+  }
+
+.cont_img {
+    background-image: url(../images/kat_un.jpg);
+    background-size:cover;
+    opacity:0.8;
+}
